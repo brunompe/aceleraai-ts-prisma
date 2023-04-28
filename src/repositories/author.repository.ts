@@ -1,6 +1,6 @@
 import { prisma } from "../db";
 
-type Author = {
+export type Author = {
   firstName: string;
   lastName: string;
 };
